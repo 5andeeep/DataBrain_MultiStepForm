@@ -1,0 +1,34 @@
+.form {
+  width: 600px;
+  margin: 100px auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  position: relative;
+  padding: 20px;
+}
+.page-number {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.form-title {
+  text-align: center;
+}
+.form-btns button {
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-block: 20px;
+}
+.input-container input {
+  width: 100%;
+  padding: 10px;
+}
